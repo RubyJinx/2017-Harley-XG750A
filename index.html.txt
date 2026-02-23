@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2017 Harley-Davidson XG750A | Dark Academia Tribute</title>
+  <meta name="description" content="A single-page tribute to the 2017 Harley-Davidson XG750A (Street Rod)." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div>
+      <h1 class="brand-title">2017 Harley-Davidson XG750A</h1>
+      <p class="brand-subtitle">A dark academia love letter to the Street Rod</p>
+    </div>
+
+    <nav class="site-nav">
+      <a href="#why" class="nav-link">Why it matters</a>
+      <a href="#features" class="nav-link">Features</a>
+      <a href="#ad" class="nav-link">Video ad</a>
+      <a href="#specs" class="nav-link">Specs</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="container">
+    <h2>Midnight steel. City lights. Focus in motion.</h2>
+    <p>
+      My favorite mode of transportation is my 2017 Harley-Davidson XG750A (Street Rod).
+      It blends modern performance with stripped-down, café-inspired styling,
+      and it feels built for real life — city riding, quick merges, and steady confidence.
+    </p>
+  </div>
+</section>
+
+<section id="why" class="section">
+  <div class="container">
+    <h2>Why it matters to me</h2>
+    <p>
+      Riding helps me reset. The Street Rod feels balanced and responsive, especially at my height (5’2”),
+      and it gives me confidence without feeling bulky or overwhelming.
+      It transforms chaos into clarity.
+    </p>
+  </div>
+</section>
+
+<section id="features" class="section alt">
+  <div class="container">
+    <h2>What makes the XG750A special</h2>
+    <ul class="feature-list">
+      <li><strong>749cc High Output Revolution X V-Twin</strong></li>
+      <li><strong>Liquid-cooled engine</strong> for city traffic comfort</li>
+      <li>Dual front disc brakes</li>
+      <li>Inverted front forks</li>
+      <li>Sporty upright riding stance</li>
+      <li>Blacked-out café racer aesthetic</li>
+    </ul>
+  </div>
+</section>
+
+<section id="ad" class="section">
+  <div class="container">
+    <h2>Video Ad Presentation</h2>
+
+    <div class="video-card">
+      <p>
+        This is my sales presentation ad created for a previous class.
+        I am hosting it here as part of this website project.
+      </p>
+
+      <div class="video-wrap">
+        <iframe
+          src="https://www.youtube.com/embed/H6WGgOsdmXM"
+          title="Harley XG750A Sales Presentation"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <p class="fineprint">
+        The video is unlisted on YouTube to ensure reliable playback while keeping the repository lightweight.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="specs" class="section alt">
+  <div class="container">
+    <h2>Quick Specs</h2>
+    <ul class="spec-list">
+      <li><strong>Model:</strong> Harley-Davidson XG750A (Street Rod)</li>
+      <li><strong>Year:</strong> 2017</li>
+      <li><strong>Engine:</strong> 749cc High Output Revolution X</li>
+      <li><strong>Cooling:</strong> Liquid-cooled</li>
+      <li><strong>Style:</strong> Sporty, modern, blacked-out</li>
+    </ul>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>
+      Created for a web development assignment. Designed with a dark academia aesthetic.
+    </p>
+  </div>
+</footer>
+
+</main>
+</body>
+</html>
