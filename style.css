@@ -12,6 +12,14 @@
   --max: 1100px;
 }
 
+:root{
+  scroll-padding-top: 140px; /* adjust if your header is taller */
+}
+
+.section{
+  scroll-margin-top: 140px;
+}
+
 *{ box-sizing: border-box; }
 
 html{ scroll-behavior: smooth; }
@@ -110,9 +118,17 @@ img, iframe{
 /* Nav */
 .site-nav{
   display: flex;
-  flex-wrap: wrap;
   gap: 0.5rem;
   justify-content: flex-end;
+  flex-wrap: nowrap;          /* stop awkward wrapping */
+  overflow-x: auto;           /* allow smooth sideways scroll if needed */
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 0.25rem;
+  scrollbar-width: none;      /* Firefox hide scrollbar */
+}
+
+.site-nav::-webkit-scrollbar{
+  display: none;              /* Chrome hide scrollbar */
 }
 
 .nav-link{
