@@ -72,8 +72,9 @@ img, iframe{
   top: 0;
   z-index: 50;
   backdrop-filter: blur(12px);
-  background: rgba(11,13,16,0.75);
-  border-bottom: 1px solid var(--border);
+  background: rgba(11,13,16,0.78);
+  border-bottom: 1px solid rgba(198,161,91,0.18);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
 }
 
 .header-inner{
@@ -81,25 +82,29 @@ img, iframe{
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 1rem 0;
+  padding: 1.25rem 0; /* was 1rem */
 }
 
 .brand-title{
   margin: 0;
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 2.3rem;
-  letter-spacing: 0.08em;
-  color: #f26522;
-  -webkit-text-stroke: 1.5px #000;
+  font-size: clamp(2.6rem, 4.2vw, 3.8rem); /* responsive size */
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: #f26522; /* Harley orange */
+  -webkit-text-stroke: 2px #000; /* stronger outline */
   text-shadow:
-    0 0 2px rgba(0,0,0,0.6),
-    0 2px 6px rgba(0,0,0,0.6);
+    0 1px 0 rgba(0,0,0,0.9),
+    0 6px 18px rgba(0,0,0,0.65);
+  line-height: 1;
 }
 
 .brand-subtitle{
-  margin: 0.25rem 0 0;
-  color: var(--muted);
-  font-size: 0.95rem;
+  margin: 0.45rem 0 0;
+  max-width: 70ch;
+  color: rgba(231,226,216,0.85);
+  font-size: clamp(1rem, 1.3vw, 1.15rem);
+  line-height: 1.5;
 }
 
 /* Nav */
@@ -112,11 +117,11 @@ img, iframe{
 
 .nav-link{
   text-decoration: none;
-  padding: 0.6rem 0.85rem;
+  padding: 0.65rem 0.95rem;
   border-radius: 999px;
   border: 1px solid rgba(198,161,91,0.20);
   background: rgba(198,161,91,0.06);
-  font-size: 0.95rem;
+  font-size: 1rem;
   transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
 }
 
